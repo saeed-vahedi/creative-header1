@@ -1,0 +1,26 @@
+.header{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(90deg,$c-g1 0%,$c-g2 40%,transparent 40%),url(../images/header.jpg) center no-repeat;
+    background-size: cover;
+
+    &-nav{
+        height: 10%;
+        
+
+    }
+
+    &-texts{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        color: white;
+
+
+    }
+}

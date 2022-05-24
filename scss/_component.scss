@@ -1,0 +1,50 @@
+.nav-menu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    list-style: none;
+    padding: 20px 20px;
+    color: white;
+    font-size: 22px;
+    font-family: $f-os;
+    transition: all 0.4s;
+    height: 50px;
+    
+
+}
+.m3:hover{
+    border-bottom: 2px solid $c-hover;
+}
+.home{
+    background-color: $c-menu;
+    border-radius: 14px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+.header-heading{
+    margin-top: 30%;
+    margin-inline: auto;
+    font-family: $f-os;
+}
+.header-pg{
+    margin: 20px 18%;
+    
+}
+.header-btn{
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    margin: 20px 0px;
+    background-color: $c-menu;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s;
+    color: white;
+    &:hover{
+        background-color: $c-hover;
+    }
+}
